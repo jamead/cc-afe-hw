@@ -474,6 +474,16 @@
 		)
 		(uuid "8d3e92d6-8ae4-4232-9eae-1e84392c1be6")
 	)
+	(bus
+		(pts
+			(xy 156.21 48.26) (xy 175.26 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90119bc9-a6dd-4298-bb05-4ba33acff1ea")
+	)
 	(wire
 		(pts
 			(xy 346.71 187.96) (xy 346.71 186.69)
@@ -3198,6 +3208,16 @@
 				(justify right)
 			)
 		)
+		(pin "DIGIN[7..0]" output
+			(at 175.26 48.26 180)
+			(uuid "f175f2c1-e3a7-4b28-ac1b-eb0425faf7c9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "cc-afe"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb"
@@ -3259,8 +3279,8 @@
 		)
 	)
 	(sheet
-		(at 136.398 45.466)
-		(size 28.956 23.114)
+		(at 127 40.64)
+		(size 29.21 24.13)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -3275,7 +3295,7 @@
 		)
 		(uuid "812210bd-4fc9-4188-a0a4-aa12c3729a0b")
 		(property "Sheetname" "Digital Inputs"
-			(at 136.398 44.7544 0)
+			(at 127 39.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3284,12 +3304,22 @@
 			)
 		)
 		(property "Sheetfile" "digin.kicad_sch"
-			(at 136.398 69.1646 0)
+			(at 127 64.3386 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "DIGIN[7..0]" output
+			(at 156.21 48.26 0)
+			(uuid "06442692-5c2b-479b-8966-511619f6d567")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
