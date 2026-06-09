@@ -4961,7 +4961,7 @@
 	)
 	(text "FPGA pulls TX_DIS low to enable SFP  (Turns on Green LED)\nMOD_ABS is pulled low when module installed\nRX_LOS is pulled high when optical power is too low\nRED LED goes on when MOD_ABS is low and RX_LOS is high"
 		(exclude_from_sim no)
-		(at 50.8 26.162 0)
+		(at 218.948 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7067,16 +7067,6 @@
 		)
 		(uuid "0c1a8232-838e-4795-9841-26a6d4771774")
 	)
-	(bus
-		(pts
-			(xy 38.1 20.32) (xy 40.64 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c7d8c60-6d31-49b6-82d5-ee89b590d5a3")
-	)
 	(wire
 		(pts
 			(xy 393.7 31.75) (xy 389.89 31.75)
@@ -7326,6 +7316,16 @@
 			(type default)
 		)
 		(uuid "14fa8246-87a3-4f8c-898b-5e06772021ad")
+	)
+	(bus
+		(pts
+			(xy 149.86 25.4) (xy 153.67 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15bf6c9d-59f1-4198-8c68-90f7342550fc")
 	)
 	(bus
 		(pts
@@ -8037,6 +8037,16 @@
 		)
 		(uuid "2eda1cab-ccb9-4e40-95ae-0bb1fc461b1c")
 	)
+	(bus
+		(pts
+			(xy 149.86 27.94) (xy 153.67 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f2749dd-f503-4f25-a510-4605cbee6b4c")
+	)
 	(wire
 		(pts
 			(xy 386.08 97.79) (xy 386.08 86.36)
@@ -8186,6 +8196,16 @@
 			(type default)
 		)
 		(uuid "32953b5c-4da4-4235-8eb9-0aa9f35f9f34")
+	)
+	(bus
+		(pts
+			(xy 66.04 22.86) (xy 91.44 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3295a00b-6cd5-4f14-b7a5-2c70960381c4")
 	)
 	(wire
 		(pts
@@ -11267,16 +11287,6 @@
 		)
 		(uuid "93a375c4-eb86-441d-9cf6-0f8ef28ac125")
 	)
-	(bus
-		(pts
-			(xy 38.1 22.86) (xy 40.64 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93f3751d-d067-42ce-9c52-91441682447d")
-	)
 	(wire
 		(pts
 			(xy 255.27 227.33) (xy 255.27 229.87)
@@ -11486,6 +11496,16 @@
 			(type default)
 		)
 		(uuid "993d19d0-c28c-46b6-acf6-28d35bf3e9c1")
+	)
+	(bus
+		(pts
+			(xy 66.04 25.4) (xy 91.44 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99d0cea4-164b-4d38-b9f7-8d046833e936")
 	)
 	(wire
 		(pts
@@ -11816,6 +11836,16 @@
 			(type default)
 		)
 		(uuid "a3162caf-7d7d-4714-b8d0-0643dc258668")
+	)
+	(bus
+		(pts
+			(xy 149.86 22.86) (xy 153.67 22.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a38c31df-f77b-429e-a4df-7743658f3f37")
 	)
 	(bus
 		(pts
@@ -13036,16 +13066,6 @@
 			(type default)
 		)
 		(uuid "cab41cda-6835-4411-b132-3bbe1debe81e")
-	)
-	(bus
-		(pts
-			(xy 38.1 25.4) (xy 40.64 25.4)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cabe5d0b-b96b-4c9e-81f0-44cf439e87d0")
 	)
 	(wire
 		(pts
@@ -14527,6 +14547,16 @@
 		)
 		(uuid "fa8c24f1-c34a-4f51-a021-5b8b802bf9f1")
 	)
+	(bus
+		(pts
+			(xy 66.04 27.94) (xy 91.44 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fac38594-a72f-4596-8616-2ff8d683f527")
+	)
 	(wire
 		(pts
 			(xy 300.99 213.36) (xy 321.31 213.36)
@@ -15257,7 +15287,7 @@
 		)
 		(uuid "7999adae-384b-4bd5-b5fc-85d6e968a09a")
 	)
-	(label "SDA3"
+	(label "SDA7"
 		(at 193.04 234.95 0)
 		(effects
 			(font
@@ -15337,7 +15367,7 @@
 		)
 		(uuid "83ee136f-8215-4f55-9815-a8be8ff10187")
 	)
-	(label "SCL3"
+	(label "SCL7"
 		(at 193.04 237.49 0)
 		(effects
 			(font
@@ -15647,7 +15677,7 @@
 		)
 		(uuid "bfd02dbd-0af9-46f0-b4d7-476d987cb9ca")
 	)
-	(label "SDA2"
+	(label "SDA6"
 		(at 193.04 179.07 0)
 		(effects
 			(font
@@ -15687,7 +15717,7 @@
 		)
 		(uuid "d06d93f5-b777-4415-b92f-841d0ea671a2")
 	)
-	(label "SCL2"
+	(label "SCL6"
 		(at 193.04 181.61 0)
 		(effects
 			(font
@@ -15727,6 +15757,16 @@
 		)
 		(uuid "dc31613c-bdf6-4c1a-a303-8ded363b6da7")
 	)
+	(label "SFP_TX_DIS[7..0]"
+		(at 67.31 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dcfd2427-25c3-4c2f-b72b-2180826d94b8")
+	)
 	(label "SFP_MOD_ABS1"
 		(at 412.75 156.21 180)
 		(effects
@@ -15757,6 +15797,16 @@
 		)
 		(uuid "e07a8381-5eec-455d-90ca-9daec20509e2")
 	)
+	(label "SFP_RX_LOS[7..0]"
+		(at 67.31 27.94 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e1be3888-8b18-4fa0-8ddc-d1a2a13cf615")
+	)
 	(label "SFP_MOD_ABS7"
 		(at 156.21 240.03 0)
 		(effects
@@ -15786,6 +15836,16 @@
 			(justify right bottom)
 		)
 		(uuid "e84179a6-b4fc-4bc9-9291-6139bfa0b415")
+	)
+	(label "SFP_MOD_ABS[7..0]"
+		(at 67.31 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8478a1c-c360-49db-8672-be8deecb901b")
 	)
 	(label "SFP2.TX_N"
 		(at 106.68 191.77 180)
@@ -15847,16 +15907,16 @@
 		)
 		(uuid "ffe3179a-67d0-422a-a1b7-a301d562b4ad")
 	)
-	(hierarchical_label "SFP_TX_DIS[7..0]"
-		(shape input)
-		(at 38.1 20.32 180)
+	(hierarchical_label "SFP_RX_LOS_FPGA[7..0]"
+		(shape output)
+		(at 153.67 27.94 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "0adb628e-5647-4692-a219-eb113ade3193")
+		(uuid "15d01cf4-d0bd-43e3-921e-0b985438f3fc")
 	)
 	(hierarchical_label "SFP3{TRX}"
 		(shape bidirectional)
@@ -15868,6 +15928,17 @@
 			(justify left)
 		)
 		(uuid "17309ddd-ccfe-41b6-b228-542d5056f3a6")
+	)
+	(hierarchical_label "SFP_TX_DIS_FPGA[7..0]"
+		(shape input)
+		(at 153.67 22.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3460a131-7cfd-469f-bae1-1a61e651264e")
 	)
 	(hierarchical_label "I2C{SDA,SCL}"
 		(shape bidirectional)
@@ -15913,6 +15984,17 @@
 		)
 		(uuid "977f91f3-b589-4274-9bd1-bc2a0cf0ff90")
 	)
+	(hierarchical_label "SFP_MOD_ABS_FPGA[7..0]"
+		(shape output)
+		(at 153.67 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a14e1443-8283-4702-a470-be7c0af24741")
+	)
 	(hierarchical_label "SFP4{TRX}"
 		(shape bidirectional)
 		(at 254 53.34 0)
@@ -15945,28 +16027,6 @@
 			(justify left)
 		)
 		(uuid "de4d93f1-bbea-426d-859e-614bf0752e99")
-	)
-	(hierarchical_label "SFP_MOD_ABS[7..0]"
-		(shape output)
-		(at 38.1 22.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e6ad2f20-9bd1-4692-8965-c78cd9c7f523")
-	)
-	(hierarchical_label "SFP_RX_LOS[7..0]"
-		(shape output)
-		(at 38.1 25.4 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "e7753aae-e020-458f-91bf-dca11f066d12")
 	)
 	(hierarchical_label "SFP1{TRX}"
 		(shape bidirectional)
@@ -39543,6 +39603,108 @@
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/3f2dcaf9-8852-4ae9-a02f-0828e41c6a78"
 					(reference "R31")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 91.44 19.812)
+		(size 58.42 11.684)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 255 194 1.0000)
+		)
+		(uuid "f2b11de9-b79d-4de7-b98c-81c47d1fb3f2")
+		(property "Sheetname" "SFP IO Buffers to FPGA"
+			(at 91.44 19.1004 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sfp_io.kicad_sch"
+			(at 91.44 32.0806 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SFP_MOD_ABS[7..0]" input
+			(at 91.44 25.4 180)
+			(uuid "058983bf-cb6e-426d-bf72-95cc4c57306b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SFP_MOD_ABS_FPGA[7..0]" output
+			(at 149.86 25.4 0)
+			(uuid "15b6b882-a0c4-45d3-8f16-35d872ca70e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SFP_RX_LOS[7..0]" input
+			(at 91.44 27.94 180)
+			(uuid "0caa7dbb-4c13-4919-963d-951b676caca5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SFP_RX_LOS_FPGA[7..0]" output
+			(at 149.86 27.94 0)
+			(uuid "9373cbaa-09d0-4298-8838-de8bfbea066b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SFP_TX_DIS[7..0]" output
+			(at 91.44 22.86 180)
+			(uuid "07168f49-0fa8-474d-a5f5-118add81cc3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SFP_TX_DIS_FPGA[7..0]" input
+			(at 149.86 22.86 0)
+			(uuid "8225147a-0ea3-4746-b309-4a3358972356")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "cc-afe"
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/3f2dcaf9-8852-4ae9-a02f-0828e41c6a78"
+					(page "9")
 				)
 			)
 		)

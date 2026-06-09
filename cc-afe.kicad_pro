@@ -541,6 +541,10 @@
       {
         "netclass": "DP_100R",
         "pattern": "*_P"
+      },
+      {
+        "netclass": "DP_100R",
+        "pattern": "*_N"
       }
     ]
   },
@@ -855,6 +859,10 @@
     [
       "812210bd-4fc9-4188-a0a4-aa12c3729a0b",
       "Digital Inputs"
+    ],
+    [
+      "f2b11de9-b79d-4de7-b98c-81c47d1fb3f2",
+      "SFP IO Buffers to FPGA"
     ]
   ],
   "text_variables": {

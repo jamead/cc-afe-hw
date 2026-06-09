@@ -2874,36 +2874,6 @@
 				(justify left)
 			)
 		)
-		(pin "SFP_MOD_ABS[7..0]" output
-			(at 241.3 130.81 180)
-			(uuid "38f2fc38-4fb9-4e82-bdf7-49f4416ef859")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SFP_TX_DIS[7..0]" input
-			(at 241.3 128.27 180)
-			(uuid "6d7b6a16-d05f-49eb-a24b-21a16f559418")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "SFP_RX_LOS[7..0]" output
-			(at 241.3 125.73 180)
-			(uuid "454cb25b-fe9f-4fb7-ac2e-1f8581ba6722")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "SFP5{TRX}" bidirectional
 			(at 241.3 114.3 180)
 			(uuid "265468b0-3d48-4aa5-9e0a-eccea920bea8")
@@ -2927,6 +2897,36 @@
 		(pin "I2C{SDA,SCL}" bidirectional
 			(at 241.3 138.43 180)
 			(uuid "ddf36c8a-8208-41ad-bbb2-dd25c0451ec4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SFP_TX_DIS_FPGA[7..0]" input
+			(at 241.3 128.27 180)
+			(uuid "a8063731-e618-499b-baa1-b606f20244f1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SFP_RX_LOS_FPGA[7..0]" output
+			(at 241.3 125.73 180)
+			(uuid "ecb81c31-4432-4a26-9756-6e652ee6126c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SFP_MOD_ABS_FPGA[7..0]" output
+			(at 241.3 130.81 180)
+			(uuid "0e6bb2f9-b41a-4cc1-8152-035d90b6a1db")
 			(effects
 				(font
 					(size 1.27 1.27)
