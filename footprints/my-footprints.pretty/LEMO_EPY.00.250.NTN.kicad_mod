@@ -165,11 +165,11 @@
 		(start 6.04 -3.4)
 		(end 16.04001 -3.4)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "9d378bce-9440-4f18-ba4b-eb27bd3f6803")
+		(uuid "d79baf77-d153-4f54-a568-94d61ef3d055")
 	)
 	(fp_line
 		(start 6.04 3.4)
@@ -185,31 +185,31 @@
 		(start 6.04 3.4)
 		(end 16.04001 3.4)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "6341db8d-9b63-49fa-982d-636343dd89b1")
+		(uuid "cacdb276-40d8-4bdf-b329-b8ce98bf688e")
 	)
 	(fp_line
 		(start 16.04001 -3.4)
 		(end 16.54001 -2.9)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "fcb4896d-6d8f-4545-9f9f-b2ef7be1e12c")
+		(uuid "09063c15-88fb-4936-88cb-349593365883")
 	)
 	(fp_line
 		(start 16.04001 3.4)
 		(end 16.04001 -3.4)
 		(stroke
-			(width 0.2)
+			(width 0.1)
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "b782bda2-1c1b-4bcc-88f4-b157fc570087")
+		(uuid "28d8c2a8-52b1-40ef-9cf0-d107b0c90606")
 	)
 	(fp_line
 		(start 16.04001 3.4)
@@ -305,11 +305,11 @@
 		(start 6.04 -3.4)
 		(end 16.04001 -3.4)
 		(stroke
-			(width 0.1)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "d79baf77-d153-4f54-a568-94d61ef3d055")
+		(uuid "9d378bce-9440-4f18-ba4b-eb27bd3f6803")
 	)
 	(fp_line
 		(start 6.04 3.4)
@@ -325,31 +325,31 @@
 		(start 6.04 3.4)
 		(end 16.04001 3.4)
 		(stroke
-			(width 0.1)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "cacdb276-40d8-4bdf-b329-b8ce98bf688e")
+		(uuid "6341db8d-9b63-49fa-982d-636343dd89b1")
 	)
 	(fp_line
 		(start 16.04001 -3.4)
 		(end 16.54001 -2.9)
 		(stroke
-			(width 0.1)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "09063c15-88fb-4936-88cb-349593365883")
+		(uuid "fcb4896d-6d8f-4545-9f9f-b2ef7be1e12c")
 	)
 	(fp_line
 		(start 16.04001 3.4)
 		(end 16.04001 -3.4)
 		(stroke
-			(width 0.1)
+			(width 0.2)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "28d8c2a8-52b1-40ef-9cf0-d107b0c90606")
+		(uuid "b782bda2-1c1b-4bcc-88f4-b157fc570087")
 	)
 	(fp_line
 		(start 16.04001 3.4)

@@ -1,0 +1,332 @@
+{
+  "Header": {
+    "GenerationSoftware": {
+      "Vendor": "KiCad",
+      "Application": "Pcbnew",
+      "Version": "9.0.9-9.0.9~ubuntu22.04.1"
+    },
+    "CreationDate": "2026-06-27T11:12:59-04:00"
+  },
+  "GeneralSpecs": {
+    "ProjectId": {
+      "Name": "cc-afe",
+      "GUID": "63632d61-6665-42e6-9b69-6361645f7063",
+      "Revision": "rev?"
+    },
+    "Size": {
+      "X": 241.35,
+      "Y": 170.484
+    },
+    "LayerNumber": 12,
+    "BoardThickness": 0.0,
+    "Finish": "ENIG",
+    "ImpedanceControlled": true
+  },
+  "DesignRules": [
+    {
+      "Layers": "Outer",
+      "PadToPad": 0.16,
+      "PadToTrack": 0.16,
+      "TrackToTrack": 0.16,
+      "MinLineWidth": 0.15,
+      "TrackToRegion": 0.16,
+      "RegionToRegion": 0.16
+    },
+    {
+      "Layers": "Inner",
+      "PadToPad": 0.0,
+      "PadToTrack": 0.0,
+      "TrackToTrack": 0.16,
+      "MinLineWidth": 0.15,
+      "TrackToRegion": 0.16,
+      "RegionToRegion": 0.16
+    }
+  ],
+  "FilesAttributes": [
+    {
+      "Path": "cc-afe-L1 - Top Signal.gbr",
+      "FileFunction": "Copper,L1,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "cc-afe-L2 - GND.gbr",
+      "FileFunction": "Copper,L2,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "cc-afe-L3 - Signal.gbr",
+      "FileFunction": "Copper,L3,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "cc-afe-L4 - GND.gbr",
+      "FileFunction": "Copper,L4,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "cc-afe-L5 - PWR.gbr",
+      "FileFunction": "Copper,L5,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "cc-afe-L6 - PWR.gbr",
+      "FileFunction": "Copper,L6,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "cc-afe-L7 - GND.gbr",
+      "FileFunction": "Copper,L7,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "cc-afe-L8 - Signal.gbr",
+      "FileFunction": "Copper,L8,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "cc-afe-L9 - GND.gbr",
+      "FileFunction": "Copper,L9,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "cc-afe-L10 - Signal.gbr",
+      "FileFunction": "Copper,L10,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "cc-afe-L11 -  GND.gbr",
+      "FileFunction": "Copper,L11,Inr",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "cc-afe-L12 - Bot Signal.gbr",
+      "FileFunction": "Copper,L12,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "cc-afe-F_Silkscreen.gbr",
+      "FileFunction": "Legend,Top",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "cc-afe-B_Silkscreen.gbr",
+      "FileFunction": "Legend,Bot",
+      "FilePolarity": "Positive"
+    },
+    {
+      "Path": "cc-afe-F_Mask.gbr",
+      "FileFunction": "SolderMask,Top",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "cc-afe-B_Mask.gbr",
+      "FileFunction": "SolderMask,Bot",
+      "FilePolarity": "Negative"
+    },
+    {
+      "Path": "cc-afe-Edge_Cuts.gbr",
+      "FileFunction": "Profile",
+      "FilePolarity": "Positive"
+    }
+  ],
+  "MaterialStackup": [
+    {
+      "Type": "Legend",
+      "Name": "Top Silk Screen"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Top Solder Paste"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "Green",
+      "Thickness": 0.0,
+      "Name": "Top Solder Mask"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0,
+      "Name": "L1 - Top Signal"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.0,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "L1 - Top Signal/L2 - GND",
+      "Notes": "Type: dielectric layer 1 (from L1 - Top Signal to L2 - GND)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0,
+      "Name": "L2 - GND"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.0,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "L2 - GND/L3 - Signal",
+      "Notes": "Type: dielectric layer 2 (from L2 - GND to L3 - Signal)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0,
+      "Name": "L3 - Signal"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.0,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "L3 - Signal/L4 - GND",
+      "Notes": "Type: dielectric layer 3 (from L3 - Signal to L4 - GND)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0,
+      "Name": "L4 - GND"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.0,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "L4 - GND/L5 - PWR",
+      "Notes": "Type: dielectric layer 4 (from L4 - GND to L5 - PWR)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0,
+      "Name": "L5 - PWR"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.0,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "L5 - PWR/L6 - PWR",
+      "Notes": "Type: dielectric layer 5 (from L5 - PWR to L6 - PWR)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0,
+      "Name": "L6 - PWR"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.0,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "L6 - PWR/L7 - GND",
+      "Notes": "Type: dielectric layer 6 (from L6 - PWR to L7 - GND)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0,
+      "Name": "L7 - GND"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.0,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "L7 - GND/L8 - Signal",
+      "Notes": "Type: dielectric layer 7 (from L7 - GND to L8 - Signal)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0,
+      "Name": "L8 - Signal"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.0,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "L8 - Signal/L9 - GND",
+      "Notes": "Type: dielectric layer 8 (from L8 - Signal to L9 - GND)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0,
+      "Name": "L9 - GND"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.0,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "L9 - GND/L10 - Signal",
+      "Notes": "Type: dielectric layer 9 (from L9 - GND to L10 - Signal)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0,
+      "Name": "L10 - Signal"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.0,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "L10 - Signal/L11 -  GND",
+      "Notes": "Type: dielectric layer 10 (from L10 - Signal to L11 -  GND)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0,
+      "Name": "L11 -  GND"
+    },
+    {
+      "Type": "Dielectric",
+      "Color": "R109G116B75",
+      "Thickness": 0.0,
+      "Material": "FR4",
+      "DielectricConstant": "4.5",
+      "LossTangent": "0.02",
+      "Name": "L11 -  GND/L12 - Bot Signal",
+      "Notes": "Type: dielectric layer 11 (from L11 -  GND to L12 - Bot Signal)"
+    },
+    {
+      "Type": "Copper",
+      "Thickness": 0.0,
+      "Name": "L12 - Bot Signal"
+    },
+    {
+      "Type": "SolderMask",
+      "Color": "Green",
+      "Thickness": 0.0,
+      "Name": "Bottom Solder Mask"
+    },
+    {
+      "Type": "SolderPaste",
+      "Name": "Bottom Solder Paste"
+    },
+    {
+      "Type": "Legend",
+      "Name": "Bottom Silk Screen"
+    }
+  ]
+}

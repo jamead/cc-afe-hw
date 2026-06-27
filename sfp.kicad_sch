@@ -5982,6 +5982,12 @@
 		(uuid "aeccded7-4f13-4f90-ba3b-1a6b20c3b1a1")
 	)
 	(junction
+		(at 356.87 128.27)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af3b457f-c20c-490b-ba98-e9d1b74d5fe0")
+	)
+	(junction
 		(at 374.65 90.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6262,6 +6268,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ef44a794-375f-47a5-a75c-4995eefb9969")
+	)
+	(junction
+		(at 355.6 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "eff2d40a-1c19-4169-9d70-1474bdd1a53d")
 	)
 	(junction
 		(at 187.96 102.87)
@@ -6939,7 +6951,7 @@
 	)
 	(wire
 		(pts
-			(xy 397.51 128.27) (xy 345.44 128.27)
+			(xy 397.51 128.27) (xy 356.87 128.27)
 		)
 		(stroke
 			(width 0)
@@ -7187,6 +7199,16 @@
 		)
 		(uuid "0ed89390-8d1a-46e1-9823-3e156c5ae107")
 	)
+	(wire
+		(pts
+			(xy 355.6 194.31) (xy 355.6 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f099aaf-880c-4184-a20e-79496949b480")
+	)
 	(bus
 		(pts
 			(xy 109.22 176.53) (xy 109.22 167.64)
@@ -7336,6 +7358,16 @@
 			(type default)
 		)
 		(uuid "160cb868-7e5d-4441-a954-a951ea1aaf84")
+	)
+	(wire
+		(pts
+			(xy 356.87 128.27) (xy 356.87 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1613a954-d067-4fbf-b539-f51a2a7b145e")
 	)
 	(wire
 		(pts
@@ -8349,6 +8381,16 @@
 	)
 	(wire
 		(pts
+			(xy 356.87 134.62) (xy 356.87 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3672bb8c-f920-4698-8358-d1506bd9ee7d")
+	)
+	(wire
+		(pts
 			(xy 382.27 95.25) (xy 382.27 86.36)
 		)
 		(stroke
@@ -8486,6 +8528,16 @@
 			(type default)
 		)
 		(uuid "3c523d2c-e17a-4bac-b6c9-0b4393aeaaf0")
+	)
+	(wire
+		(pts
+			(xy 356.87 128.27) (xy 345.44 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c743cd9-5845-4490-b833-fb69233deb3a")
 	)
 	(wire
 		(pts
@@ -9636,6 +9688,16 @@
 			(type default)
 		)
 		(uuid "62497f3b-ce21-4086-aac2-2299071e762b")
+	)
+	(wire
+		(pts
+			(xy 355.6 187.96) (xy 355.6 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "62aa59fe-ad47-40f7-9893-dafdee54c9c4")
 	)
 	(wire
 		(pts
@@ -12429,6 +12491,16 @@
 	)
 	(wire
 		(pts
+			(xy 355.6 187.96) (xy 344.17 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba8a5364-c72c-44e1-8548-ec0787378c11")
+	)
+	(wire
+		(pts
 			(xy 389.89 77.47) (xy 386.08 77.47)
 		)
 		(stroke
@@ -13809,7 +13881,7 @@
 	)
 	(wire
 		(pts
-			(xy 396.24 187.96) (xy 344.17 187.96)
+			(xy 396.24 187.96) (xy 355.6 187.96)
 		)
 		(stroke
 			(width 0)
@@ -16194,6 +16266,72 @@
 			(project "cc-afe"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/3f2dcaf9-8852-4ae9-a02f-0828e41c6a78"
 					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 355.6 195.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "027b4223-a84d-437a-992d-ae22503e8515")
+		(property "Reference" "#PWR0232"
+			(at 355.6 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 355.727 199.9742 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 355.6 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 355.6 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 355.6 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7b82a871-5082-4bd3-8c4d-9bf922b54ab6")
+		)
+		(instances
+			(project "cc-afe"
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/3f2dcaf9-8852-4ae9-a02f-0828e41c6a78"
+					(reference "#PWR0232")
 					(unit 1)
 				)
 			)
@@ -23104,6 +23242,72 @@
 			(project "cc-afe"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/3f2dcaf9-8852-4ae9-a02f-0828e41c6a78"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 356.87 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "448b445c-8597-474d-b61f-9a47ad568c9e")
+		(property "Reference" "#PWR0231"
+			(at 356.87 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 356.997 140.2842 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 356.87 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 356.87 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 356.87 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05d7eae6-4a6d-4e12-8aa2-8ac8d1cefb5d")
+		)
+		(instances
+			(project "cc-afe"
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/3f2dcaf9-8852-4ae9-a02f-0828e41c6a78"
+					(reference "#PWR0231")
 					(unit 1)
 				)
 			)
@@ -33091,6 +33295,103 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C_Small")
+		(at 355.6 191.77 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bd56ed5f-fa26-49f2-b66a-2ecf2827e6b1")
+		(property "Reference" "C115"
+			(at 358.14 190.5062 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 358.14 193.0462 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 355.6 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 355.6 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 355.6 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "${DNP}" "${DNP}"
+			(at 355.6 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Samsung Electro-Mechanics"
+			(at 355.6 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "CL10B104KB8NNNC"
+			(at 355.6 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "93246feb-88c5-447e-bf43-ed5573c7609e")
+		)
+		(pin "2"
+			(uuid "92fca388-6ee3-4558-be20-37b4f82cf89e")
+		)
+		(instances
+			(project "cc-afe"
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/3f2dcaf9-8852-4ae9-a02f-0828e41c6a78"
+					(reference "C115")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 358.14 215.9 90)
 		(unit 1)
@@ -37521,6 +37822,103 @@
 			(project "cc-afe"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/3f2dcaf9-8852-4ae9-a02f-0828e41c6a78"
 					(reference "R46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 356.87 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9003fa0-a54f-4956-adfb-f095d5d3e503")
+		(property "Reference" "C114"
+			(at 359.41 130.8162 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 359.41 133.3562 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 356.87 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 356.87 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 356.87 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "${DNP}" "${DNP}"
+			(at 356.87 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Samsung Electro-Mechanics"
+			(at 356.87 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG_PN" "CL10B104KB8NNNC"
+			(at 356.87 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1f93cca8-8675-459a-bf22-a4b0094d7caa")
+		)
+		(pin "2"
+			(uuid "a181de03-9fe4-4186-a8ea-cedbc28baa69")
+		)
+		(instances
+			(project "cc-afe"
+				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb/3f2dcaf9-8852-4ae9-a02f-0828e41c6a78"
+					(reference "C114")
 					(unit 1)
 				)
 			)
