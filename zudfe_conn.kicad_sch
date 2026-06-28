@@ -5234,6 +5234,16 @@
 		)
 		(uuid "85ba3918-cddc-4423-8e6a-0450956ba787")
 	)
+	(wire
+		(pts
+			(xy 344.17 113.03) (xy 375.92 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86f911ba-19bd-4423-a033-b7589508be73")
+	)
 	(bus
 		(pts
 			(xy 115.57 148.59) (xy 115.57 147.32)
@@ -8448,6 +8458,17 @@
 			(justify right)
 		)
 		(uuid "5fd36224-6345-410d-bc57-370afd5ab6b8")
+	)
+	(hierarchical_label "SDI_RESET"
+		(shape output)
+		(at 344.17 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8743e5b8-b01d-4a88-83ac-ea82529317cc")
 	)
 	(hierarchical_label "SFP7{TRX}"
 		(shape bidirectional)

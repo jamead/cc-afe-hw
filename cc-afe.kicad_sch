@@ -410,6 +410,16 @@
 		)
 		(uuid "3eddc9ec-c167-41ea-9428-ad90d506e142")
 	)
+	(wire
+		(pts
+			(xy 214.63 166.37) (xy 240.03 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f939062-7ee1-4892-8275-69b19ea5cbf2")
+	)
 	(bus
 		(pts
 			(xy 156.21 185.42) (xy 226.06 185.42)
@@ -2798,6 +2808,16 @@
 				(justify left)
 			)
 		)
+		(pin "SDI_RESETN" input
+			(at 240.03 166.37 180)
+			(uuid "0bc385c7-9a5b-446b-8532-8b9584318c8d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "cc-afe"
 				(path "/40891cc8-bf64-41f4-8f69-a607d7b280eb"
@@ -3252,6 +3272,16 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "SDI_RESET" output
+			(at 214.63 166.37 0)
+			(uuid "1f3a3fc5-cff1-4055-b152-2e32afe435ea")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances
